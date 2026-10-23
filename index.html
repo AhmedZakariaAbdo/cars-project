@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="./images/favicon.png">
+    <title>Noir | Cars</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container container">
+
+            <div class="navbar__logo">
+                <a href="#"><img src="./images/logo.png" alt="Noir Automotive"></a>
+            </div>
+
+            <div class="navbar__menu">
+                <ul class="navbar__menu-list">
+                    <li class="navbar__menu-item">
+                        <a href="#" class="navbar__menu-link navbar__menu-link--active">Home</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#featured" class="navbar__menu-link">Collection</a>
+                    </li>
+                    <li class="navbar__menu-item">
+                        <a href="#philosophy" class="navbar__menu-link">About</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="navbar__right">
+                <a href="contact.html" class="navbar__contact">Contact</a>
+
+                <!-- Hamburger icon + mobile menu -->
+                <div class="navbar__mobile-menu">
+                    <div class="navbar__mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+
+                    <div class="navbar__mobile-menu-items">
+                        <ul class="navbar__mobile-menu-list">
+                            <li class="navbar__mobile-menu-item">
+                                <a href="#" class="navbar__mobile-menu-link">Home</a>
+                            </li>
+                            <li class="navbar__mobile-menu-item">
+                                <a href="#" class="navbar__mobile-menu-link">Collection</a>
+                            </li>
+                            <li class="navbar__mobile-menu-item">
+                                <a href="#" class="navbar__mobile-menu-link">About</a>
+                            </li>
+                            <li class="navbar__mobile-menu-item">
+                                <a href="#" class="navbar__mobile-menu-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+
+        <div class="hero__container container">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    Beyond <br> the limit
+                </h1>
+                <p class="hero__description">
+                    Precision engineered. <br>
+                    Emotion unleashed.
+                </p>
+                <a href="#" class="hero__button btn">
+                    Explore Collection <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero__footer">
+            <div class="hero__footer-container container">
+                <ul class="hero__pagination">
+                    <li><a href="#" class="hero__pagination-link hero__pagination-link--active">01</a></li>
+                    <li><a href="#" class="hero__pagination-link">02</a></li>
+                    <li><a href="#" class="hero__pagination-link">03</a></li>
+                </ul>
+
+                <p class="hero__tags">
+                    Performance <span>/</span> Luxury <span>/</span> Noir
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+<!-- Featured Vehicles -->
+<section class="featured" id="featured">
+    <div class="featured__container container">
+
+        <!-- Section header -->
+        <div class="featured__header">
+            <div class="featured__heading">
+                <p class="featured__eyebrow">Featured Vehicles</p>
+                <h2 class="featured__title">Iconic Performance.</h2>
+            </div>
+
+            <p class="featured__description">
+                A curated selection of the world's most extraordinary machines.
+                Each vehicle represents the perfect balance of power, precision and design.
+            </p>
+        </div>
+
+        <!-- Cars grid -->
+        <div class="featured__grid">
+
+            <!-- Card 1 -->
+            <article class="car-card">
+                <div class="car-card__image">
+                    <img src="./images/card-image-1.png" alt="Porsche 911 GT3 RS"> 
+                </div>
+                <div class="car-card__body">
+                    <h3 class="car-card__name">Porsche 911 GT3 RS</h3>
+                    <p class="car-card__year">2023</p>
+                    <ul class="car-card__specs">
+                        <li>518 HP</li>
+                        <li>3.2s</li>
+                        <li>296 km/h</li>
+                    </ul>
+                    <a href="#" class="car-card__link">
+                        View Details <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 2 -->
+            <article class="car-card">
+                <div class="car-card__image">
+                    <img src="./images/card-image-2.png" alt="Mercedes-AMG GT R">
+                </div>
+                <div class="car-card__body">
+                    <h3 class="car-card__name">Mercedes-AMG GT R</h3>
+                    <p class="car-card__year">2021</p>
+                    <ul class="car-card__specs">
+                        <li>577 HP</li>
+                        <li>3.6s</li>
+                        <li>318 km/h</li>
+                    </ul>
+                    <a href="#" class="car-card__link">
+                        View Details <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Card 3 -->
+            <article class="car-card">
+                <div class="car-card__image">
+                    <img src="./images/card-image-3.jpg" alt="Lamborghini Huracán EVO">
+                </div>
+                <div class="car-card__body">
+                    <h3 class="car-card__name">Lamborghini Huracán EVO</h3>
+                    <p class="car-card__year">2022</p>
+                    <ul class="car-card__specs">
+                        <li>631 HP</li>
+                        <li>2.9s</li>
+                        <li>325 km/h</li>
+                    </ul>
+                    <a href="#" class="car-card__link">
+                        View Details <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+<!-- Philosophy -->
+
+<section class="philosophy" id="philosophy">
+
+        <div class="philosophy__container container">
+            
+            <div class="philosophy__content">
+
+                <p class="philosophy__eyebrow">Our Philosophy</p>
+                <h2 class="philosophy__title">
+                    More than <br> just cars
+                </h2>
+
+                <p class="philosophy__text">
+
+                At <strong>NOIR</strong>, we believe a car is not just a machine —
+                it's a <strong>feeling</strong>. A fusion of art, engineering and
+                freedom. We create experiences for those who see beyond the ordinary.
+                </p>
+                <a href="#" class="philosophy__button btn">
+                    About Noir <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+</section>
+
+
+
+<!-- Footer -->
+
+<footer class="footer">
+    <div class="footer__container container">
+
+        <!-- Top: 4 columns -->
+        <div class="footer__top">
+
+            <!-- Brand -->
+            <div class="footer__brand">
+                <a href="#" class="footer__logo">
+                    <img src="./images/logo.png" alt="Noir Automotive">
+                </a>
+                <p class="footer__tagline">Luxury. Performance. Forever.</p>
+            </div>
+
+            <!-- Navigation -->
+            <div class="footer__col">
+                <h3 class="footer__title">Navigation</h3>
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">Home</a></li>
+                    <li><a href="#" class="footer__link" >Collection</a></li>
+                    <li><a href="#" class="footer__link">About</a></li>
+                    <li><a href="#" class="footer__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div class="footer__col">
+                <h3 class="footer__title">Follow Us</h3>
+                <ul class="footer__social">
+                    <li><a href="#" class="footer__social-link" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#" class="footer__social-link" aria-label="X"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#" class="footer__social-link" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="#" class="footer__social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer__col">
+                <h3 class="footer__title">Join Our Newsletter</h3>
+                <p class="footer__text">
+                    Be the first to know about new arrivals, exclusive events and more.
+                </p>
+                <form class="footer__form" action="#">
+                    <input type="email" class="footer__input" placeholder="Your email address" aria-label="Email address" required>
+                    <button type="submit" class="footer__submit" aria-label="Subscribe">
+                        <i class="fa-solid fa-arrow-right-long"></i>
+                    </button>
+                </form>
+            </div>
+
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="footer__bottom">
+            <p class="footer__copyright">
+                &copy; 2025 NOIR Automotive. All rights reserved.
+            </p>
+            <ul class="footer__legal">
+                <li><a href="#" class="footer__legal-link">Privacy Policy</a></li>
+                <li><a href="#" class="footer__legal-link">Terms of Service</a></li>
+            </ul>
+        </div>
+
+    </div>
+</footer>
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>

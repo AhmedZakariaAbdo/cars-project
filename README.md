@@ -7,16 +7,18 @@ A modern, responsive luxury automotive website showcasing premium sports cars th
 ## 📸 Screenshots
 
 ### Homepage
-![NOIR Automotive Homepage](<img width="1315" height="632" alt="image" src="https://github.com/user-attachments/assets/51fef4a3-387a-4b2e-9e07-87b3df9ca158" />
-)
+![NOIR Automotive Homepage]
+<img width="1323" height="632" alt="image" src="https://github.com/user-attachments/assets/9634b88e-6e3b-4b5f-9b0c-a19ef2f3c2d1" />
+
 
 ### Featured Cars Collection
-![Featured Cars Collection](<img width="1321" height="635" alt="image" src="https://github.com/user-attachments/assets/23789db7-e742-4cda-8dfa-1de88e6be0c6" />
-)
+![Featured Cars Collection]
+<img width="1321" height="631" alt="image" src="https://github.com/user-attachments/assets/27219dc3-3690-4166-b8ec-94d3d8df3818" />
+
 
 ### Contact Page
-![Contact Page](<img width="1321" height="634" alt="image" src="https://github.com/user-attachments/assets/de0f8b01-099d-4c61-b266-13314c704a01" />
-)
+![Contact Page]
+<img width="1326" height="632" alt="image" src="https://github.com/user-attachments/assets/9f880395-5a20-49a5-a4de-bf0106e3f0fc" />
 
 ## ✨ Features
 
